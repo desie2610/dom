@@ -24,11 +24,22 @@
 
 // listEl.style.backgroundcolor = "yellow"
 
-const friendName = 
-['anton', 'daria', 'timofii','david','timur', 'katerina', 'oleksandr']
+// const friendName = 
+// ['anton', 'daria', 'timofii','david','timur', 'katerina', 'oleksandr']
 
-const itemsEl = document.querySelector('.item')
-const itemEl = document.querySelectorAll('.item')
-console.log(itemsEl);
+// const itemsEl = document.querySelector('.item')
+// const itemEl = document.querySelectorAll('.item')
+// console.log(itemsEl);
 
-console.log(itemEl);
+// console.log(itemEl);
+
+const boxEl = document.querySelector(".asd")
+console.log(boxEl);
+
+const titleEl = document.createElement('h1')
+titleEl.textContent = 'hello'
+titleEl.style.color = 'red'
+titleEl.style.fontSize = "80px"
+boxEl.appendChild(titleEl)
+console.log(titleEl);
+
